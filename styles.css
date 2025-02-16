@@ -1,0 +1,53 @@
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #ffffe0; /* Pale yellow background */
+  }
+  
+  /* Centering container */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;       /* Centers container horizontally */
+    text-align: center;   /* Centers text/elements inside */
+    padding: 20px;
+  }
+  
+  /* Headline spacing */
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  /* Each row of label + input side by side */
+  .form-row {
+    display: flex;
+    justify-content: center;   /* Center them horizontally */
+    align-items: center;       /* Vertically align label/input */
+    margin-bottom: 10px;
+  }
+  
+  /* Label styling */
+  label {
+    margin-right: 10px;  /* Spacing between label and input */
+  }
+  
+  /* Input styling */
+  input {
+    padding: 5px;
+    margin-bottom: 0;    /* No extra margin needed here */
+  }
+  
+  /* Button styling */
+  button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Output area styling */
+  #outputArea {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  

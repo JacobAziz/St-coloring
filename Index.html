@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Color Coded Sentences</title>
+  <!-- Link to your CSS file -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Color Coded Sentences</h1>
+
+    <div class="form-row">
+      <label for="germanInput">German Sentence:</label>
+      <input type="text" id="germanInput" placeholder="Enter German sentence" />
+    </div>
+
+    <div class="form-row">
+      <label for="englishInput">English Sentence:</label>
+      <input type="text" id="englishInput" placeholder="Enter English sentence" />
+    </div>
+
+    <button id="colorCodeBtn">Color Code</button>
+    <button id="copyBtn">Copy Text</button>
+
+    <div id="outputArea">
+      <!-- Colored sentences will appear here -->
+    </div>
+  </div>
+
+  <!-- Hidden div for contentEditable copy trick -->
+  <div id="hiddenHtml" contenteditable="true" style="position: absolute; left: -9999px;"></div>
+
+  <!-- Link to your JS file -->
+  <script src="script.js"></script>
+</body>
+</html>
+
